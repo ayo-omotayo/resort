@@ -1,0 +1,311 @@
+.category-nav > li {
+  color: #5E5E5E; }
+
+.popover {
+  max-width: 100%;
+  background: #EEEEEE;
+  border: none;
+  border-radius: 0%; }
+  .popover ul li {
+    list-style: none; }
+
+.pop a {
+  color: #5E5E5E !important;
+  font-weight: 600; }
+  .pop a:hover {
+    color: #00337C; }
+
+.search-input:focus, .search-btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+  border: 2px solid #049940 !important; }
+
+.cart-dropdown-remove {
+  color: red; }
+
+.cart-dropdown-remove:hover {
+  color: #049940; }
+
+.cart-dropdown-title {
+  font-size: 13px;
+  font-weight: 500; }
+
+.cart-dropdown-btn {
+  background-color: #00337C; }
+
+.cart-container {
+  text-align: center; }
+  .cart-container a {
+    color: #5E5E5E;
+    font-weight: 600; }
+    .cart-container a .cart-counter {
+      background-color: #E5E5E5;
+      position: absolute;
+      margin: -14px 0 0 20px;
+      border-radius: 50%;
+      width: 20px;
+      color: #00337C;
+      padding: 4px;
+      font-size: 11px; }
+
+.account-dropdown .dropdown-toggle {
+  color: #5E5E5E;
+  font-weight: 600; }
+  .account-dropdown .dropdown-toggle::after {
+    color: #00337C;
+    font-size: 20px; }
+.account-dropdown .dropdown-menu {
+  background-color: #EEEEEE;
+  border: none; }
+  .account-dropdown .dropdown-menu a {
+    margin-top: 10px;
+    font-weight: 600; }
+
+.btn.focus, .btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important; }
+
+.banner-carousel .carousel-inner .carousel-item p .btn {
+  width: 20%;
+  background-color: #00337C;
+  border: none;
+  border-radius: 3px;
+  margin-top: -300px;
+  box-shadow: 2px 2px 4px grey !important; }
+  .banner-carousel .carousel-inner .carousel-item p .btn:hover {
+    border: none;
+    box-shadow: 2px 2px 7px grey !important; }
+
+.banner-carousel .carousel-inner .carousel-item p .btn:active {
+  box-shadow: none;
+  background-color: #049940; }
+
+.carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  border-radius: 100%; }
+.carousel-indicators .active {
+  background-color: #00337C !important; }
+
+.category-title {
+  border-left: 2px solid #ccc;
+  margin: 60px 0 50px 0;
+  padding-left: 10px; }
+
+.cart-item {
+  padding-top: 10px;
+  margin-bottom: 10px; }
+
+/*//////////////////// login page /////////////////////////*/
+
+.registration-page-wrapper .card {
+  border: none; }
+.registration-page-wrapper .form-title {
+  text-align: center;
+  margin: 20px 0 10px 0; }
+.registration-page-wrapper form {
+  margin-bottom: 30px; }
+.registration-page-wrapper form .login-btn, .registration-page-wrapper form .register-btn {
+  border-radius: 0 !important;
+  background-color: #00337C;
+  border: none;
+  outline: 0;
+  box-shadow: 2px 2px 4px grey !important; }
+.registration-page-wrapper form input, .registration-page-wrapper form .eye-btn {
+  background-color: #E5E5E5 !important; }
+.registration-page-wrapper form .eye-btn {
+  color: #5E5E5E; }
+.registration-page-wrapper form .form-control {
+  border-radius: 0 !important;
+  outline: 0; }
+.registration-page-wrapper form .form-control:focus {
+  outline: 0;
+  box-shadow: inset 0 -1px 0 #ddd; }
+.registration-page-wrapper form .info > a {
+  color: #049940;
+  text-decoration: none; }
+.registration-page-wrapper form .info > a:hover {
+  color: #00337C; }
+
+/*//////////////////// end login page /////////////////////////*/
+
+/*//////////////////// book details /////////////////////////*/
+
+.book-details-wrapper {
+  padding-bottom: 30px; }
+.book-details-wrapper .img-container {
+  text-align: center; }
+.book-details-wrapper .card {
+  width: 80%; }
+.book-details-wrapper .card .card-body {
+  width: 80%; }
+.book-details-wrapper .card .card-body .table #productPrice {
+  font-weight: bold; }
+.book-details-wrapper .card .card-body .table .qty-update button {
+  margin: 0.5px;
+  box-shadow: 2px 2px 4px grey; }
+.book-details-wrapper .card .card-body .table .qty-update button:hover {
+  background-color: #E5E5E5;
+  color: #5E5E5E; }
+.book-details-wrapper .card .card-body .table .qty-update button:focus {
+  box-shadow: 0px 0px 4px grey;
+  outline-color: unset; }
+.book-details-wrapper .card .card-body .table .qty-update button, .book-details-wrapper .card .card-body .table .qty-update > span {
+  border: 1px solid #9F9F9F;
+  padding: 0px 8px;
+  color: #9F9F9F;
+  background-color: white; }
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input:focus{
+  box-shadow: none;
+  outline: none;
+}
+.book-details-wrapper .card .card-body .table .qty-update > input {
+  text-align: center; font-size: 14px; width: 38px !important;  }
+.book-details-wrapper .card .card-body .add-to-cart-btn, .book-details-wrapper .card .card-body .add_to_wlist {
+  font-size: 14px;
+  height: 50px;
+  border-radius: 0;
+  width: 30%;
+  margin-bottom: 20px; }
+.book-details-wrapper .card .card-body .add-to-cart-btn {
+  background: #00337C; }
+.book-details-wrapper .card .card-body .add-to-cart-btn:hover {
+  background-color: #065acf; }
+.book-details-wrapper .card .card-body .add_to_wlist {
+  background: #E5E5E5;
+  color: #00337C;
+  border: none; }
+.book-details-wrapper .card .card-body .add_to_wlist:hover {
+  background-color: #5E5E5E;
+  color: #E5E5E5; }
+
+.user-review-form .review-star i {
+  color: #dcdcdc;
+}
+.user-review-form button {
+  border-radius: 0;
+  background-color: #00337C; }
+
+.nav-pills .nav-link {
+  color: #202020 !important;
+  background-color: unset !important;
+  border-radius: 0 !important;
+  border-bottom: 7px solid #E5E5E5 !important;
+  margin: 0 3px;
+  padding: 0 120px;
+  font-size: 20px;
+  font-weight: 500; }
+
+.nav-pills .nav-link.active {
+  border-bottom: 7px solid #00337C !important; }
+
+/*//////////////////// end book details /////////////////////////*/
+
+footer {
+  background-color: #383838;
+  padding-top: 30px;
+  color: #ffffff; }
+  footer .container .row .col ul .footer-header {
+    color: #ffffff; }
+  footer .container .row .col ul li {
+    list-style: none;
+    margin-top: 10px;
+    color: #9F9F9F; }
+  footer hr {
+    border-top: 1px solid #9F9F9F; }
+  footer .copyright {
+    color: #9F9F9F; }
+
+.bold-statement {
+  font-weight: bold; }
+
+@media (max-width: 897px) {
+  .brand-logo {
+    display: none; }
+
+  .mobile-navbar-brand {
+    font-weight: 600; }
+    .mobile-navbar-brand .first-word {
+      color: #00337C; }
+    .mobile-navbar-brand .second-word {
+      color: #049940; }
+
+  .cart-container a .cart-counter {
+    position: absolute;
+    margin: 19px 0 0 -10px;
+    border-radius: 50%;
+    padding: 3px;
+    width: 20px;
+    font-size: 13px; }
+
+  .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important; }
+
+  .banner-carousel .carousel-inner .carousel-item p .btn {
+    width: 25%;
+    margin-top: -160px; }
+
+  .category-nav {
+    display: none; }
+
+.book-details-wrapper .card {
+  width: 100%; }
+.book-details-wrapper .card .card-body .add-to-cart-btn, .book-details-wrapper .card .card-body .add_to_wlist {
+  width: 40%;
+  margin-bottom: 0px; }
+
+.nav-pills .nav-link {
+  border-bottom: 5px solid #E5E5E5 !important;
+  margin: 0 3px;
+  padding: 0 60px;
+  font-size: 15px;
+  font-weight: bold; }
+
+.nav-pills .nav-link.active {
+  border-bottom: 5px solid #00337C !important; } }
+@media (max-width: 427px) {
+  .cart-container a .cart-counter {
+    position: absolute;
+    margin: 18px 0 0 -9px;
+     border-radius: 50%;
+    width: 20px;
+    font-size: 13px; }
+
+  .book-details-wrapper .card .card-body .add-to-cart-btn, .book-details-wrapper .card .card-body .add_to_wlist {
+    width: 100%; }
+
+  .nav-pills .nav-link {
+    border-bottom: 5px solid #E5E5E5 !important;
+    margin: 0 3px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold; }
+
+  .nav-pills .nav-link.active {
+    border-bottom: 5px solid #00337C !important; } }
+
+@media (max-width: 384px) {
+  .nav-pills .nav-link {
+    padding: 0 5px;
+    font-size: 13px; } }
+
+#myPopoverContent {
+  display: none;
+  float: right; }
+
+.popover {
+  padding: 0; }
+
+#test {
+  margin-left: 250px; }
+
+/*# sourceMappingURL=style.css.map */
